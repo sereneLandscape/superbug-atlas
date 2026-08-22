@@ -1,0 +1,16 @@
+[project]
+name = "superbug-atlas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.43.72",
+    "boto3-stubs[s3]>=1.43.78",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "owid-catalog>=1.2.4",
+    "polars>=1.43.2",
+    "seaborn>=0.13.2",
+]
